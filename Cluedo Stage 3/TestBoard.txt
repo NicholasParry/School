@@ -1,0 +1,14 @@
+# Number of rooms
+1,
+# Room numbers and names
+0, Kitchen,
+# Board dimensions
+7, 7,
+# Board layout
+.......,
+.WWWWW.,
+.W000W.,
+.W000W.,
+.W000W.,
+.WWDWW.,
+.......,
