@@ -14,14 +14,19 @@ import nz.ac.aut.prog2.cluedo.model.Position;
  */
 public class MovementUpdate extends ScreenUpdate{
     private Position position;
+    private boolean addPlayer;
     
-    public MovementUpdate(Position _position){
+    public MovementUpdate(Position _position, Boolean _addPlayer){
         position = _position;
+        addPlayer = _addPlayer;
     }
 
     public Position getPosition() {
         return position;
     }
     
+    public boolean isAddPlayer(){
+        return addPlayer;
+    }
     
 }
